@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav,footer{
+  background-color: #eee;
+}
+nav .logout{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+a:hover{
+  color: rgb(32, 186, 78);
+}
